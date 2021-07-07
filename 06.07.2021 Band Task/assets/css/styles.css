@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.header{
+    height: 8vh;
+    background-color: black;
+    color: white;
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.header ul{
+    display: flex;
+    position: fixed;
+    top: 0;
+    margin-top: 10px;
+}
+
+.searchpng img{
+    filter:invert(1) ;
+    width: 60%;
+    margin-right: 20px;
+    height: 30px;
+}
+.header ul li{
+    padding: 8px 24px;
+    list-style: none;
+} 
+.band{
+    position: relative;
+    width: 100%;
+}
+
+.band img{
+    height: 92vh;
+    width: 100%;
+}
+.band p{
+    position: absolute;
+    top: 90%;
+    color: white;
+    left: 42%;
+}
+.band h4{
+    position: absolute;
+    top: 80%;
+    color: white;
+    left: 50%;
+    padding: 15px;
+} 
+.container p{
+    position: absolute;
+}
+.the-band{
+text-align: center;
+padding: 0 220px;
+
+}
+.the-band p{
+    text-align: justify;
+    padding: 20px;
+}
+.the-band h2{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+}
+.the-band i{
+    margin-top: 40px;
+}
+.images div{   
+   display: inline-block;
+   margin-left: 25px;
+   margin-top: 20px;
+}
+.images p{
+    text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+.tours{
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+    margin-top: 20px;
+}
+.tours h2{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.tours i{
+    color: white;
+    
+}
+.tours .months{
+    color: black;
+    margin-top: 20px;
+}
+.months{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+    
+}
+.months li{
+    border-bottom: 1px inset gray ;
+    margin-top: 5px;
+   
+}
+
+.sept{
+    background-color: red;
+    color: white;
+    margin-left: 5px;
+}
+.nov{
+    display: inline-block;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5;   
+    margin-left: 80%;
+}
+.cities{
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.cities img{
+margin: 20px 20px;
+}
+    
+.prop{
+    width: 200px;
+}
+
+
+
+
+
